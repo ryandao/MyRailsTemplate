@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: tailoredapps_development
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: tailoredapps_test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tailoredapps_production
