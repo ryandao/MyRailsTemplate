@@ -24,12 +24,15 @@ gem 'state_machine'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'koala'
+gem 'binding_of_caller'
 
 group :development do
   gem 'sqlite3'
 end
 
 group :development, :test do
+  gem 'binding_of_caller'
+  gem 'better_errors'
   gem 'rspec-rails'
 end
 
