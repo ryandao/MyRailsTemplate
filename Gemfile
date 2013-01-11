@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '3.2.3'
-
+gem 'rails', '3.2.11'
 gem 'jquery-rails', '~>1.0.19'
 gem 'jquery-ui-rails'
 gem "haml", ">= 3.1.6"
